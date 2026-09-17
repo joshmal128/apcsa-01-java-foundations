@@ -9,7 +9,7 @@
  */
 public class BrokenHello {
     public static void main(String[] args) {
-        System.out.println("This program has bugs!");
-        System.out.println("Can you find them all?");
+        System.out.println("This program has bugs! helllll nooo");
+        System.out.println("Can you find them all? yes because im the greatest computer science student");
     }
 }
