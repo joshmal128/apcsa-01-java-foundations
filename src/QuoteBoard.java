@@ -19,7 +19,7 @@
 public class QuoteBoard {
     public static void main(String[] args) {
 
-        // Your code here
+System.out.println("\"The most harmful sentence in the\nlanguage is: 'We hate computer science'\"");
 
     }
 }
