@@ -9,19 +9,19 @@
 public class BadVariables {
     public static void main(String[] args) {
 
-        int 2ndPlace = 5;
+        int secondPlace = 5;    // variable identifier can't start with number
 
-        double price = "9.99";
+        double price = 9.99;    // double can't be in quotes or it becomes a string
 
-        boolean isReady = "true";
+        boolean isReady = true; // boolean values must be true or false
 
-        char grade = "A";
+        char grade = 'A';   // char must have single quotation
 
-        int class = 11;
+        int gradeLevel = 11;    // class is a reserved java keyword
 
-        String Name = "Sarah";
+        String name = "Sarah";  // variables start with lowercase
 
-        int student score = 95;
+        int studentScore = 95;  // all variables need to be a singular word
 
         System.out.println("If this runs, you fixed them all.");
     }

@@ -13,10 +13,9 @@
  */
 public class AboutMe {
     public static void main(String[] args) {
-
-        // Declare your variables here
-
-        // Print them with labels here
-
+        final int BIRTH_YEAR = 2010
+        string birthMonth = "February"
+        char grade = 'A+';
+        double gpa = 4.1
     }
 }

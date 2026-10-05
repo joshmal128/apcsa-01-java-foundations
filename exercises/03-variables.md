@@ -6,30 +6,30 @@ For each value, pick the best Java type and justify it in **one sentence.** The 
 
 | # | Value to store | Type | Why |
 |---|---|---|---|
-| 1 | A student's age | | |
-| 2 | The price of a coffee | | |
-| 3 | Whether a student is enrolled | | |
-| 4 | A student's middle initial | | |
-| 5 | A phone number | | |
-| 6 | The population of New York City | | |
-| 7 | A test score out of 100 | | |
-| 8 | A GPA | | |
-| 9 | Whether it is currently raining | | |
-| 10 | A student ID like `0074512` | | |
+| 1 | A student's age | int | Because it is a whole number |
+| 2 | The price of a coffee | double | price includes decimals to the nearest hundredths |
+| 3 | Whether a student is enrolled | boolean | because its true or false |
+| 4 | A student's middle initial | char | single character |
+| 5 | A phone number | string | there are characters besides the numbers |
+| 6 | The population of New York City | int | People counted as whole numbers |
+| 7 | A test score out of 100 | int | whole number |
+| 8 | A GPA | double | contains decimals not only numbers |
+| 9 | Whether it is currently raining | boolean | True or False |
+| 10 | A student ID like `0074512` | string | Contains quotes |
 
 ### Traps to think carefully about
 
 **#5 — Phone number.** It's made of digits, so `int` feels right. Why is it wrong?
 
-[your answer]
+[Because it has other characters other than numbers]
 
 **#10 — Student ID.** Same question, plus one more problem `int` would cause.
 
-[your answer]
+[Because its in quotes, and int is for something mathematical, string is any text in quotes]
 
 **#6 — Population of NYC.** About 8.3 million. Does that fit in an `int`? What about the population of Earth?
 
-[your answer]
+[No because it has a decimal, for population of Earth it would be the same]
 
 ---
 
